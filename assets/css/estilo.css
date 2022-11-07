@@ -1,0 +1,57 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start; 
+    height:100vh;
+    background-color:#BDF8E4;
+    background-image:url("assets/medico.png");
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+main{
+    width:500px;
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:nowrap;
+    background-color:#5B8E7D;
+    color:#E9F7F0;
+    border-radius:5px;
+}
+h2{
+    font:normal 25pt Helvetica;
+    font-weight: bold;
+}
+input{
+    height:2em;
+    width:20em;
+    text-align:center;
+    font:normal 16pt Arial;
+    border:none;
+    border-radius:5px;
+    color:#5B8E7D;
+    background-color:#E9F7F0;
+    box-shadow:2px 2px 5px rgb(46, 45, 45);
+    cursor:pointer;
+}
+input:focus{
+    outline:0;
+}
+label{
+    font:normal 14pt Calibri;
+    margin-right:19em;
+}
+#calcular, #limpar{
+    width:200px;
+    height:50px;
+    color:#fff;
+}
+#calcular{
+    background-color:#77C731;
+}
+#limpar{
+    background-color:#E7720B;
+}
