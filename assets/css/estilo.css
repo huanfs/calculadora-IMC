@@ -5,7 +5,7 @@ body{
     justify-content:flex-start; 
     height:100vh;
     background-color:#BDF8E4;
-    background-image:url("assets/medico.png");
+    background-image:url('C:/Users/rafae/Desktop/minhas aplicações html+css+js/calculadora-IMC/assets/medico.png');
     background-repeat:no-repeat;
     background-position:right center;
 }
