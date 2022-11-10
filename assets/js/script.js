@@ -13,7 +13,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }
@@ -25,7 +25,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }
@@ -37,7 +37,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }
@@ -49,7 +49,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }
@@ -61,7 +61,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }
@@ -73,7 +73,7 @@ function calcular(){
         res.style.backgroundColor='#E9F7F0';
         res.style.fontSize='18pt';
         res.style.marginTop='2em';
-        res.style.width='500px';
+        res.style.width='340px';
         res.style.fontFamily='Arial';
         res.style.padding='10px';
     }

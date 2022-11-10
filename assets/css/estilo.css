@@ -58,15 +58,18 @@ label{
 
 @media screen and (max-width:500px){
     main{
-        width:400px;
-        height:400px;
+        width:330px;
+        height:380px;
+    }
+    main h2{
+        font-size:19pt;
     }
     input{
         height:1.5em;
         width:80%;
     }
     label{
-        margin-right:14em;
+        margin-right:12em;
     }
     section{
         display:flex;
