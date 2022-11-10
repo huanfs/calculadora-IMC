@@ -5,7 +5,7 @@ body{
     justify-content:flex-start; 
     height:100vh;
     background-color:#BDF8E4;
-    background-image:url('C:/Users/rafae/Desktop/minhas aplicações html+css+js/calculadora-IMC/assets/medico.png');
+    background-image:url('assets/medico.png');
     background-repeat:no-repeat;
     background-position:right center;
 }
@@ -54,4 +54,32 @@ label{
 }
 #limpar{
     background-color:#E7720B;
+}
+
+@media screen and (max-width:500px){
+    main{
+        width:400px;
+        height:400px;
+    }
+    input{
+        height:1.5em;
+        width:80%;
+    }
+    label{
+        margin-right:14em;
+    }
+    section{
+        display:flex;
+        flex-direction:column;
+        width:80%;
+
+    }
+    #calcular, #limpar{
+        width:100%;
+        height:30px;
+        color:#fff;
+    }
+    #limpar{
+        margin-top:0.3em;
+    }
 }
