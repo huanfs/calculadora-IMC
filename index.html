@@ -9,18 +9,34 @@
     <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
 </head>
 <body>
+    <!--ÁREA DO CONTEUDO PRINCIPAL!-->
     <main>
-        <h2>Calculadora de IMC</h2>
-        <label for="altura">Altura:</label>
-        <input type="number" id="altura"><br>
-        <label for="peso">Peso:</label>
-        <input type="number" id="peso"><br>
-        <section>
-            <input type="button" id="calcular" onclick="calcular()" value="calcular">
-            <input type="reset" id="limpar" value="limpar" onclick="limpar()">
-        </section>
-    </main>
+
+    <!--CAIXA DE RESULTADO-->
     <article></article>
+
+    <!--FORMULÁRIOS E BOTÕES-->
+    <div id="formularios">
+        <h2>Calculadora de IMC</h2>
+        <label for="altura">Altura</label>
+        <input type="number" id="altura"><br>
+        <label for="peso">Peso</label>
+        <input type="number" id="peso"><br>
+        
+        <!--BOTÕES!-->
+        <section>
+            <button id="limpar" onclick="limpar()">limpar</button>
+            <button id="calcular" onclick="calcular()">calcular</button>
+        </section>
+    </div>
+
+    <!--IMAGEM DO MÉDICO-->
+    <div id="medico">
+        <img src="assets/medico.png">
+    </div>
+    </main>
+    <!-- FIM DO CONTEUDO PRINCIPAL -->
+    
 
     <script src="assets/js/script.js"></script>
 </body>

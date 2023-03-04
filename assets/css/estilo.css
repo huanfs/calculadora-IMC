@@ -1,88 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:flex-start; 
     height:100vh;
-    background-color:#BDF8E4;
-    background-image:url('assets/medico.png');
-    background-repeat:no-repeat;
-    background-position:right center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
+/* ESTILIZAÇÃO DO CON TEÚDO PRINCIPAL */
 main{
-    width:500px;
-    height:450px;
+    width:370px;
+    height:490px;
+    padding:5px;
+    background-color:#f2f2f2;
+    border:1px solid rgb(107, 106, 106);
+    border-radius:10px;
+    display:grid;
+    grid-template-areas:"linha coluna" "linha1 coluna";
+    grid-template-rows:50%;
+    grid-template-columns:50%;
+}   
+main #formularios{
+    grid-area:linha;
     display:flex;
     flex-direction:column;
-    justify-content:center;
     align-items:center;
-    flex-wrap:nowrap;
-    background-color:#5B8E7D;
-    color:#E9F7F0;
-    border-radius:5px;
 }
-h2{
-    font:normal 25pt Helvetica;
-    font-weight: bold;
+#formularios h2{
+    font:normal 1.4em Calibri;
+    margin-bottom:20px;
 }
-input{
-    height:2em;
-    width:20em;
-    text-align:center;
-    font:normal 16pt Arial;
-    border:none;
-    border-radius:5px;
-    color:#5B8E7D;
-    background-color:#E9F7F0;
-    box-shadow:2px 2px 5px rgb(46, 45, 45);
-    cursor:pointer;
+#formularios label{
+    margin-bottom:5px;
+    font:normal 1em Arial;
+    margin-left:-8em;
 }
-input:focus{
+#formularios input{
+    height:30px;
     outline:0;
+    text-align:center;
+    font-weight:bold;
 }
-label{
-    font:normal 14pt Calibri;
-    margin-right:19em;
+#formularios section{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
-#calcular, #limpar{
-    width:200px;
-    height:50px;
-    color:#fff;
-}
-#calcular{
-    background-color:#77C731;
+#formularios button{
+    width:45%;
+    height:25px;
+    font:normal 1em Arial;
 }
 #limpar{
-    background-color:#E7720B;
+    background-color:rgb(249, 134, 11);
+    border:none;
+    color:#fff;
+    border-radius:3px;
 }
-
-@media screen and (max-width:500px){
-    main{
-        width:330px;
-        height:380px;
-    }
-    main h2{
-        font-size:19pt;
-    }
-    input{
-        height:1.5em;
-        width:80%;
-    }
-    label{
-        margin-right:12em;
-    }
-    section{
-        display:flex;
-        flex-direction:column;
-        width:80%;
-
-    }
-    #calcular, #limpar{
-        width:100%;
-        height:30px;
-        color:#fff;
-    }
-    #limpar{
-        margin-top:0.3em;
-    }
+#calcular{
+    background-color:rgb(16, 225, 5);
+    border:none;
+    color:#fff;
+    border-radius:3px;
+}
+img{
+    grid-area:coluna;
+    width:100%;
+    height:200%;
+}
+main article{
+    grid-area:linha1;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:rgb(33, 236, 57)
 }
