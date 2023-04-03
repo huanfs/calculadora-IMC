@@ -2,42 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Huan Figuereido">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
 </head>
 <body>
-    <!--ÁREA DO CONTEUDO PRINCIPAL!-->
-    <main>
-
-    <!--CAIXA DE RESULTADO-->
-    <article></article>
-
-    <!--FORMULÁRIOS E BOTÕES-->
-    <div id="formularios">
-        <h2>Calculadora de IMC</h2>
-        <label for="altura">Altura</label>
-        <input type="number" id="altura"><br>
-        <label for="peso">Peso</label>
-        <input type="number" id="peso"><br>
-        
-        <!--BOTÕES!-->
-        <section>
-            <button id="limpar" onclick="limpar()">limpar</button>
-            <button id="calcular" onclick="calcular()">calcular</button>
-        </section>
+    <div class="container">
+        <div class="wallpapper">
+            <img src="assets/doctor.svg">
+        </div>
+        <div id="form">
+            <div class="form-header">
+                <h1>CALCULADORA DE IMC</h1>
+            </div>
+            <div class="form">
+                <form>
+                    <label for="altura">Altura:</label>
+                    <input type="number" placeholder="Ex: 1.70">
+                    <label for="Peso">Peso:</label>
+                    <input type="number" placeholder="Ex: 50.5">
+                    <div class="input-buttons">
+                        <button id="erase" onclick="reset()">APAGAR</button>
+                        <button id="calc">CALCULAR</button>
+                    </div>
+                </form>
+                <div id="result"></div>
+            </div>
+        </div>
     </div>
-
-    <!--IMAGEM DO MÉDICO-->
-    <div id="medico">
-        <img src="assets/medico.png">
-    </div>
-    </main>
-    <!-- FIM DO CONTEUDO PRINCIPAL -->
-    
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>
