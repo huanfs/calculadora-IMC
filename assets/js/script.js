@@ -4,7 +4,7 @@ btn[1].addEventListener("click", calcular);
 
 function calcular(){
     let imc = Number(inputs[1].value/(inputs[0].value*inputs[0].value));
-    imc = imc.toFixed(1).replace('.',',');
+    imc = imc.toFixed(1);
     console.log(imc);
     if(imc<18.6){
         let result = document.querySelector("#result");
